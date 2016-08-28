@@ -1,0 +1,19 @@
+PODS:
+  - EPContactsPicker (1.0.6)
+  - FontAwesome.swift (0.8.0)
+  - Material (1.42.9)
+  - Stripe (8.0.4)
+
+DEPENDENCIES:
+  - EPContactsPicker
+  - FontAwesome.swift
+  - Material (~> 1.0)
+  - Stripe
+
+SPEC CHECKSUMS:
+  EPContactsPicker: 67332665424a811cc0a03c5533cb0b33ad93f6c6
+  FontAwesome.swift: f8c6cc5c42cbe93bdc04371363bc7b371fb3d3a1
+  Material: a84ed893b7785f0d3c8d568e88c055f82b436473
+  Stripe: c3e325e0309dcdcb478191dbd298082823a210c1
+
+COCOAPODS: 0.39.0

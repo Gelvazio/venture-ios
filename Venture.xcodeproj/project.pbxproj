@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450648A61D72B1B5007E9FED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450648A51D72B1B5007E9FED /* AppDelegate.swift */; };
+		450648A81D72B1B5007E9FED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450648A71D72B1B5007E9FED /* ViewController.swift */; };
+		450648AD1D72B1B5007E9FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450648AC1D72B1B5007E9FED /* Assets.xcassets */; };
+		450648B01D72B1B5007E9FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450648AE1D72B1B5007E9FED /* LaunchScreen.storyboard */; };
+		450648BD1D72B5EE007E9FED /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450648B81D72B5EE007E9FED /* AccountKit.framework */; };
+		450648BE1D72B5EE007E9FED /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 450648B91D72B5EE007E9FED /* AccountKitStrings.bundle */; };
+		450648BF1D72B5EE007E9FED /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450648BA1D72B5EE007E9FED /* FBSDKCoreKit.framework */; };
+		450648C01D72B5EE007E9FED /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450648BB1D72B5EE007E9FED /* FBSDKLoginKit.framework */; };
+		450648C11D72B5EE007E9FED /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450648BC1D72B5EE007E9FED /* FBSDKShareKit.framework */; };
+		450648C31D72BE75007E9FED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450648C21D72BE75007E9FED /* LoginViewController.swift */; };
+		450648C51D72CEF5007E9FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450648C41D72CEF5007E9FED /* Main.storyboard */; };
+		450648CF1D730093007E9FED /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450648CE1D730093007E9FED /* ControlViewController.swift */; };
+		450648D11D7300E7007E9FED /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450648D01D7300E7007E9FED /* ContainerViewController.swift */; };
+		450648D31D7310D4007E9FED /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450648D21D7310D4007E9FED /* NewContactViewController.swift */; };
+		59AD32DB9B4EFD507FA073A3 /* Pods_Venture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D68B9EE1421749887B9A098 /* Pods_Venture.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D346FEB678900F716D122F4 /* Pods-Venture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Venture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Venture/Pods-Venture.debug.xcconfig"; sourceTree = "<group>"; };
+		2D68B9EE1421749887B9A098 /* Pods_Venture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Venture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450648A21D72B1B5007E9FED /* Venture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		450648A51D72B1B5007E9FED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		450648A71D72B1B5007E9FED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		450648AC1D72B1B5007E9FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		450648AF1D72B1B5007E9FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		450648B11D72B1B5007E9FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450648B81D72B5EE007E9FED /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AccountKit.framework; path = ../../../../Documents/FacebookSDK/AccountKit.framework; sourceTree = "<group>"; };
+		450648B91D72B5EE007E9FED /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AccountKitStrings.bundle; path = ../../../../Documents/FacebookSDK/AccountKitStrings.bundle; sourceTree = "<group>"; };
+		450648BA1D72B5EE007E9FED /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		450648BB1D72B5EE007E9FED /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		450648BC1D72B5EE007E9FED /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		450648C21D72BE75007E9FED /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		450648C41D72CEF5007E9FED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		450648CE1D730093007E9FED /* ControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		450648D01D7300E7007E9FED /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		450648D21D7310D4007E9FED /* NewContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
+		C3CB6735736B3A1732460FCF /* Pods_Venture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Venture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF1B81D2660CD5E95E19BA0 /* Pods-Venture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Venture.release.xcconfig"; path = "Pods/Target Support Files/Pods-Venture/Pods-Venture.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4506489F1D72B1B5007E9FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450648BF1D72B5EE007E9FED /* FBSDKCoreKit.framework in Frameworks */,
+				450648C11D72B5EE007E9FED /* FBSDKShareKit.framework in Frameworks */,
+				450648C01D72B5EE007E9FED /* FBSDKLoginKit.framework in Frameworks */,
+				450648BD1D72B5EE007E9FED /* AccountKit.framework in Frameworks */,
+				59AD32DB9B4EFD507FA073A3 /* Pods_Venture.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0765E3186EF2714BAFB0D91A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D346FEB678900F716D122F4 /* Pods-Venture.debug.xcconfig */,
+				CCF1B81D2660CD5E95E19BA0 /* Pods-Venture.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		450648991D72B1B5007E9FED = {
+			isa = PBXGroup;
+			children = (
+				450648B71D72B5C3007E9FED /* Frameworks */,
+				450648A41D72B1B5007E9FED /* Venture */,
+				450648A31D72B1B5007E9FED /* Products */,
+				0765E3186EF2714BAFB0D91A /* Pods */,
+				7B382886259DC56E0A3478B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		450648A31D72B1B5007E9FED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450648A21D72B1B5007E9FED /* Venture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450648A41D72B1B5007E9FED /* Venture */ = {
+			isa = PBXGroup;
+			children = (
+				450648A51D72B1B5007E9FED /* AppDelegate.swift */,
+				450648A71D72B1B5007E9FED /* ViewController.swift */,
+				450648D01D7300E7007E9FED /* ContainerViewController.swift */,
+				450648CE1D730093007E9FED /* ControlViewController.swift */,
+				450648D21D7310D4007E9FED /* NewContactViewController.swift */,
+				450648C21D72BE75007E9FED /* LoginViewController.swift */,
+				450648C41D72CEF5007E9FED /* Main.storyboard */,
+				450648AC1D72B1B5007E9FED /* Assets.xcassets */,
+				450648AE1D72B1B5007E9FED /* LaunchScreen.storyboard */,
+				450648B11D72B1B5007E9FED /* Info.plist */,
+			);
+			path = Venture;
+			sourceTree = "<group>";
+		};
+		450648B71D72B5C3007E9FED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				450648B81D72B5EE007E9FED /* AccountKit.framework */,
+				450648B91D72B5EE007E9FED /* AccountKitStrings.bundle */,
+				450648BA1D72B5EE007E9FED /* FBSDKCoreKit.framework */,
+				450648BB1D72B5EE007E9FED /* FBSDKLoginKit.framework */,
+				450648BC1D72B5EE007E9FED /* FBSDKShareKit.framework */,
+				2D68B9EE1421749887B9A098 /* Pods_Venture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B382886259DC56E0A3478B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3CB6735736B3A1732460FCF /* Pods_Venture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		450648A11D72B1B5007E9FED /* Venture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450648B41D72B1B5007E9FED /* Build configuration list for PBXNativeTarget "Venture" */;
+			buildPhases = (
+				81A8CC3B53284C3D6AD854C9 /* Check Pods Manifest.lock */,
+				4506489E1D72B1B5007E9FED /* Sources */,
+				4506489F1D72B1B5007E9FED /* Frameworks */,
+				450648A01D72B1B5007E9FED /* Resources */,
+				3E5630D10C1EF61F3DCF3B40 /* Embed Pods Frameworks */,
+				76064006DAA879031FE08562 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Venture;
+			productName = Venture;
+			productReference = 450648A21D72B1B5007E9FED /* Venture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4506489A1D72B1B5007E9FED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pedro A. M. Scocco";
+				TargetAttributes = {
+					450648A11D72B1B5007E9FED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4506489D1D72B1B5007E9FED /* Build configuration list for PBXProject "Venture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 450648991D72B1B5007E9FED;
+			productRefGroup = 450648A31D72B1B5007E9FED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450648A11D72B1B5007E9FED /* Venture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450648A01D72B1B5007E9FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450648B01D72B1B5007E9FED /* LaunchScreen.storyboard in Resources */,
+				450648AD1D72B1B5007E9FED /* Assets.xcassets in Resources */,
+				450648BE1D72B5EE007E9FED /* AccountKitStrings.bundle in Resources */,
+				450648C51D72CEF5007E9FED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E5630D10C1EF61F3DCF3B40 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Venture/Pods-Venture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76064006DAA879031FE08562 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Venture/Pods-Venture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81A8CC3B53284C3D6AD854C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4506489E1D72B1B5007E9FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450648C31D72BE75007E9FED /* LoginViewController.swift in Sources */,
+				450648A81D72B1B5007E9FED /* ViewController.swift in Sources */,
+				450648D11D7300E7007E9FED /* ContainerViewController.swift in Sources */,
+				450648CF1D730093007E9FED /* ControlViewController.swift in Sources */,
+				450648D31D7310D4007E9FED /* NewContactViewController.swift in Sources */,
+				450648A61D72B1B5007E9FED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		450648AE1D72B1B5007E9FED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450648AF1D72B1B5007E9FED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		450648B21D72B1B5007E9FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		450648B31D72B1B5007E9FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		450648B51D72B1B5007E9FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D346FEB678900F716D122F4 /* Pods-Venture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Documents/FacebookSDK",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Venture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.pedroscocco.Venture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		450648B61D72B1B5007E9FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF1B81D2660CD5E95E19BA0 /* Pods-Venture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Documents/FacebookSDK",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Venture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.pedroscocco.Venture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4506489D1D72B1B5007E9FED /* Build configuration list for PBXProject "Venture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450648B21D72B1B5007E9FED /* Debug */,
+				450648B31D72B1B5007E9FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450648B41D72B1B5007E9FED /* Build configuration list for PBXNativeTarget "Venture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450648B51D72B1B5007E9FED /* Debug */,
+				450648B61D72B1B5007E9FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4506489A1D72B1B5007E9FED /* Project object */;
+}
