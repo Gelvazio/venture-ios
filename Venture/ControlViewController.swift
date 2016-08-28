@@ -45,7 +45,8 @@ class ControlViewController: UIViewController, EPPickerDelegate, STPPaymentConte
     }
     
     func cardTapped() {
-        self.paymentContext.pushPaymentMethodsViewController()
+        self.paymentContext.presentPaymentMethodsViewController()
+        UIApplication.sharedApplication().openURL(NSURL.init(string: "https://m.me/ventureinvesting")!)
     }
     
     func paymentContextDidChange(paymentContext: STPPaymentContext) {
