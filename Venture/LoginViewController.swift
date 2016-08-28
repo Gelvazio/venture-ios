@@ -15,6 +15,7 @@ class LoginViewController: UIViewController, AKFViewControllerDelegate{
     var accountKit: AKFAccountKit!
     override func viewDidLoad() {
         super.viewDidLoad()
+        FBSDKLoginManager().logOut()
         // initialize Account Kit
         if accountKit == nil {
             // may also specify AKFResponseTypeAccessToken

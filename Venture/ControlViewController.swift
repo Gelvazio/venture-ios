@@ -17,6 +17,7 @@ class ControlViewController: UIViewController, EPPickerDelegate, STPPaymentConte
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var profileName: UILabel!
     
+    @IBOutlet weak var valueLabel: UILabel!
     var profile: EPContact!
     
     var paymentContext: STPPaymentContext!
@@ -73,6 +74,8 @@ class ControlViewController: UIViewController, EPPickerDelegate, STPPaymentConte
     
     func epContactPicker(_: EPContactsPicker, didSelectContact contact: EPContact) {
         self.profile = contact
+        
+        self.valueLabel.text = "R$ 200"
         
         self.performSegueWithIdentifier("newContact", sender: self)
         
